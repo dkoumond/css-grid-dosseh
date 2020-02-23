@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title> CSS Grid </title>
+    <style>
+
+        .grid-container {
+
+            display: grid;
+            height:1em;
+            width: 70em;
+            grid-gap: 10px;
+            background-color: white;
+            padding: 10px;
+        }
+
+        .grid-item {
+
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .item1 {
+            height: 1em;
+            background-color: royalblue;
+            grid-column: 1 / span 6;
+            grid-row: 1 / span 1;
+        }
+
+        .item2 {
+            height: 4em;
+            background-color: darkviolet;
+            grid-column: 1 / span 6;
+            grid-row: 2 / span 4;
+        }
+        .item3 {
+            height: 2em;
+            background-color: black;
+            grid-column: 1 / span 4;
+            grid-row: 7 / span 2;}
+        .item4 {
+            height: 2em;
+            background-color: blue;
+            grid-column: 5 / span 2;
+            grid-row: 7 / span 2;}
+        .item5 {
+            height: 5em;
+            background-color: orange;
+            grid-column: 1 / span 1;
+            grid-row: 10 / span 3;
+        }
+
+        .item6 {
+            height: 5em;
+            background-color: green;
+            grid-column: 3 / span 1;
+            grid-row: 10 / span 3;}
+
+        .item7 {
+            height: 5em;
+            background-color: red;
+            grid-column: 4 / span 3;
+            grid-row: 10 / span 3;}
+        .item8 {
+            height: 17em;
+            background-color: yellow;
+            grid-column: 1 / span 3;
+            grid-row: 14 / span 8;}
+        .item9 {
+            height: 5em;
+            background-color: limegreen;
+            grid-column: 4 / span 1;
+            grid-row: 14 / span 3;}
+        .item10 {
+            height: 5em;
+            background-color: lawngreen;
+            grid-column: 6 / span 1;
+            grid-row: 14 / span 3;}
+        .item11 {
+            height: 10.4em;
+            background-color: aqua;
+            grid-column: 4 / span 3;
+            grid-row: 17 / span 4;}
+        .item12 {
+            height: 3em;
+            background-color: indigo;
+            grid-column: 1 / span 6;
+            grid-row: 22 / span 3;}
+
+
+    </style>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="grid-item item1"></div>
+    <div class="grid-item item2"></div>
+    <div class="grid-item item3"></div>
+    <div class="grid-item item4"></div>
+    <div class="grid-item item5"></div>
+    <div class="grid-item item6"></div>
+    <div class="grid-item item7"></div>
+    <div class="grid-item item8"></div>
+    <div class="grid-item item9"></div>
+    <div class="grid-item item10"></div>
+    <div class="grid-item item11"></div>
+    <div class="grid-item item12"></div>
+</div>
+
+
+</body></html>
